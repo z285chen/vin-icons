@@ -15,8 +15,9 @@ jobs:
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if ! git diff --quiet -- vin-icons.json; then
-            git add vin-icons.json && git commit -m "chore: rebuild vin-icons.json" && git push
-          else
+          git add vin-icons.json
+          if git diff --cached --quiet; then
             echo "unchanged"
+          else
+            git commit -m "chore: rebuild vin-icons.json" && git push
           fi
