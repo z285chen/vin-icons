@@ -10,5 +10,9 @@
       "name": "National Geographic White",
       "url": "https://raw.githubusercontent.com/z285chen/vin-icons/refs/heads/main/icons/national_geographic_white.png"
     },
+    {
+      "name": "abc",
+      "url": "https://raw.githubusercontent.com/z285chen/vin-icons/refs/heads/main/icons/abc.png"
+    },
   ]
 }
