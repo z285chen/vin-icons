@@ -13,6 +13,10 @@
     {
       "name": "National Geographic White",
       "url": "https://cdn.jsdelivr.net/gh/z285chen/vin-icons@main/icons/national_geographic_white.png"
+    },
+    {
+      "name": "Sbs",
+      "url": "https://cdn.jsdelivr.net/gh/z285chen/vin-icons@main/icons/sbs.png"
     }
   ]
 }
