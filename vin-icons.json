@@ -7,6 +7,10 @@
       "url": "https://cdn.jsdelivr.net/gh/z285chen/vin-icons@main/icons/abc.png"
     },
     {
+      "name": "Hami Video",
+      "url": "https://cdn.jsdelivr.net/gh/z285chen/vin-icons@main/icons/hami_video.png"
+    },
+    {
       "name": "National Geographic",
       "url": "https://cdn.jsdelivr.net/gh/z285chen/vin-icons@main/icons/national_geographic.png"
     },
@@ -17,6 +21,10 @@
     {
       "name": "Sbs",
       "url": "https://cdn.jsdelivr.net/gh/z285chen/vin-icons@main/icons/sbs.png"
+    },
+    {
+      "name": "Viutv",
+      "url": "https://cdn.jsdelivr.net/gh/z285chen/vin-icons@main/icons/viutv.png"
     }
   ]
 }
