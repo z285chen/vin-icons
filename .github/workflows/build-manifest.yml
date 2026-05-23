@@ -1,0 +1,22 @@
+name: Build vin-icons.json
+on:
+  push:
+    branches: [main]
+    paths: ['icons/**', 'build_manifest.py', '.github/workflows/build-manifest.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 build_manifest.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- vin-icons.json; then
+            git add vin-icons.json && git commit -m "chore: rebuild vin-icons.json" && git push
+          else
+            echo "unchanged"
+          fi
