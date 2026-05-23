@@ -6,11 +6,16 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: build-manifest
+  cancel-in-progress: false
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - run: python3 build_manifest.py
       - run: |
           git config user.name "github-actions[bot]"
