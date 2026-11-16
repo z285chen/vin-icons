@@ -3,32 +3,32 @@
   "description": "Vin定制图标需求",
   "icons": [
     {
-      "name": "Abc",
-      "url": "https://cdn.jsdelivr.net/gh/z285chen/vin-icons@main/icons/abc.png"
+      "name": "abc.png",
+      "url": "https://raw.githubusercontent.com/z285chen/vin-icons/main/icons/qx/abc.png"
     },
     {
-      "name": "Hami Video",
-      "url": "https://cdn.jsdelivr.net/gh/z285chen/vin-icons@main/icons/hami_video.png"
+      "name": "hami_video.png",
+      "url": "https://raw.githubusercontent.com/z285chen/vin-icons/main/icons/qx/hami_video.png"
     },
     {
-      "name": "National Geographic",
-      "url": "https://cdn.jsdelivr.net/gh/z285chen/vin-icons@main/icons/national_geographic.png"
+      "name": "national_geographic.png",
+      "url": "https://raw.githubusercontent.com/z285chen/vin-icons/main/icons/qx/national_geographic.png"
     },
     {
-      "name": "National Geographic White",
-      "url": "https://cdn.jsdelivr.net/gh/z285chen/vin-icons@main/icons/national_geographic_white.png"
+      "name": "national_geographic_white.png",
+      "url": "https://raw.githubusercontent.com/z285chen/vin-icons/main/icons/qx/national_geographic_white.png"
     },
     {
-      "name": "Sbs",
-      "url": "https://cdn.jsdelivr.net/gh/z285chen/vin-icons@main/icons/sbs.png"
+      "name": "sbs.png",
+      "url": "https://raw.githubusercontent.com/z285chen/vin-icons/main/icons/qx/sbs.png"
     },
     {
       "name": "shopify.png",
-      "url": "https://raw.githubusercontent.com/z285chen/vin-icons/main/icons/shopify.png"
+      "url": "https://raw.githubusercontent.com/z285chen/vin-icons/main/icons/qx/shopify.png"
     },
     {
-      "name": "Viutv",
-      "url": "https://cdn.jsdelivr.net/gh/z285chen/vin-icons@main/icons/viutv.png"
+      "name": "viutv.png",
+      "url": "https://raw.githubusercontent.com/z285chen/vin-icons/main/icons/qx/viutv.png"
     }
   ]
 }
