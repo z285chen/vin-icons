@@ -1,0 +1,14 @@
+{
+  "name": "Vin 图片尺寸对照",
+  "description": "第一张512×512，第二张144×144；同一Shopify标志、均用GitHub raw。",
+  "icons": [
+    {
+      "name": "shopify-512.png",
+      "url": "https://raw.githubusercontent.com/z285chen/vin-icons/1acea6f3ffef0ffdd4ae35b0a5699b43ead18d5c/icons/shopify.png?v=sizecheck1"
+    },
+    {
+      "name": "shopify-144.png",
+      "url": "https://raw.githubusercontent.com/z285chen/vin-icons/main/compat/shopify-144.png?v=sizecheck1"
+    }
+  ]
+}
